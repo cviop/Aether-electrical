@@ -56,7 +56,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=General_2L_35um_5KT.PcbDoc
+DocumentPath=Aether.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -79,7 +79,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -89,33 +89,67 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MNJDGFNP
 
+[Document4]
+DocumentPath=PSU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XFGGBAWT
+
+[Document5]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MDEKYERV
+
 [Parameter1]
-Name=ApprovedBy
-Value=Rani Srani
+Name=Title
+Value=testtest
 
 [Parameter2]
-Name=CheckedBy
-Value=Rudolf Jelinek
+Name=Revision
+Value=001
 
 [Parameter3]
-Name=Date
-Value=YYYY-MM-DD
+Name=Project
+Value=XXX
 
 [Parameter4]
 Name=DrawnBy
 Value=Jim Beam
 
 [Parameter5]
-Name=Project
-Value=XXX
+Name=Date
+Value=YYYY-MM-DD
 
 [Parameter6]
-Name=Revision
-Value=001
+Name=CheckedBy
+Value=Rudolf Jelinek
 
 [Parameter7]
-Name=Title
-Value=testtest
+Name=ApprovedBy
+Value=Rani Srani
 
 [Configuration1]
 Name=Default Configuration
@@ -784,7 +818,7 @@ Type32=1
 Type33=1
 Type34=1
 Type35=1
-Type36=1
+Type36=0
 Type37=1
 Type38=1
 Type39=1
